@@ -1,0 +1,68 @@
+generated: '2026-10-02'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.oneautoapi.com/changelog/
+sources:
+- https://docs.oneautoapi.com/changelog/
+entries:
+- breaking: false
+  highlights:
+  - New Feature Knowledge Base
+  - New Feature Improved Website Search
+  date: '2024-06-01'
+- breaking: false
+  highlights:
+  - New Service One Auto API - MOT History & Tax status
+  date: '2024-05-01'
+- breaking: false
+  highlights:
+  - New Data Provider EV Database
+  - New Feature Swagger Site
+  - New Feature SDK
+  - Update Existing endpoints versioning (AutoPredict, Auto Trader, DriveRightData, Experian, Marketcheck, Solifi & One Auto API)
+  date: '2024-04-01'
+- breaking: false
+  highlights:
+  - New Feature Auto Trader Connect
+  date: '2024-03-01'
+- breaking: false
+  highlights:
+  - New Service Solifi - Inventory Augmentation from IDS Code
+  - New Data Provider EVOX
+  date: '2024-02-01'
+- breaking: false
+  highlights:
+  - New Feature Report Builder
+  - New Data Provider ClearWatt
+  date: '2024-01-01'
+- breaking: false
+  highlights:
+  - New Service Experian Data Guarantees
+  - New Feature User Management
+  - New Feature Enhanced Dashboard
+  date: '2023-11-01'
+- breaking: false
+  highlights:
+  - New Feature Full launch VRM 360
+  date: '2023-10-01'
+- breaking: false
+  highlights:
+  - New Feature Beta launch VRM 360
+  date: '2023-09-01'
+- breaking: false
+  highlights:
+  - New Service Additional Brego Services
+  - New Data Provider Sagacity
+  date: '2023-07-01'
+- breaking: false
+  highlights:
+  - New Feature API Sandbox
+  date: '2023-05-01'
+- breaking: false
+  highlights:
+  - Update Existing Experian endpoints versioning
+  - New Feature Enhanced API Key Security and Control
+  - New Data Provider Marketcheck
+  date: '2023-03-01'
+note: The page does not specify a versioning scheme or a current version identifier.
+docs: https://docs.oneautoapi.com/changelog/

@@ -1,29 +1,98 @@
 aid: oneautoapi
+
 name: One Auto API
-description: 'One Auto API is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.oneautoapi.com/images/og-image.png
+
+description: One Auto API provides comprehensive automotive data APIs for vehicle lookup, valuations, retail pricing, and more across the US,
+  UK, and Europe. Their platform offers over 100 API methods covering car images, mileage checks, specifications, electric vehicle data, registration
+  lookup, service history, and valuation, all accessible via a single subscription and monthly invoice. Designed for developers, product managers,
+  and dealers, the service includes bulk report building, VRM360 insights, and consultancy services, backed by multiple data providers.
+
 url: https://raw.githubusercontent.com/api-evangelist/oneautoapi/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-02 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-02'
+
 modified: '2026-10-02'
+
 tags:
-- Company
-apis: []
+- Automotive
+- Data
+- API
+- Vehicle
+- UK
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: PrivacyPolicy
+  url: https://www.oneautoapi.com/privacy-policy/
+- type: ChangeLog
+  url: changelog/oneautoapi-changelog.yml
+- type: Hosts
+  url: hosts/oneautoapi-hosts.yml
+- type: Vendors
+  url: vendors/oneautoapi-vendors.yml
+- type: Login
+  url: https://www.oneautoapi.com/login/
+- type: ChangeLog
+  url: https://docs.oneautoapi.com/changelog/
+- type: DomainSecurity
+  url: security/oneautoapi-domain-security.yml
 - type: Website
   url: https://www.oneautoapi.com/
 - type: Documentation
   url: https://docs.oneautoapi.com/
+- type: APIReference
+  url: https://swagger.oneautoapi.com/
+- type: GettingStarted
+  url: https://www.oneautoapi.com/signup/
+- type: Pricing
+  url: https://www.oneautoapi.com/pricing/
+- type: Blog
+  url: https://go.oneautoapi.com/blog/
+- type: Support
+  url: https://www.oneautoapi.com/contact/
+- type: TermsOfService
+  url: https://www.oneautoapi.com/terms/
+
+apis:
+- name: One Auto API
+  description: Automotive data APIs providing vehicle identity, history, valuations, specs and images.
+  humanURL: https://www.oneautoapi.com/
+  baseURL: null
+  aid: oneautoapi:one-auto-api
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages redirect to JavaScript‑rendered SPA with no machine‑readable spec.
+  evidence:
+  - url: https://www.oneautoapi.com/docs/
+    status: 308
+  checked: '2026-10-02'
+
 x-submission-notes: UK automotive data APIs (vehicle lookup, valuations, retail pricing).
-x-submission-probe: root 200; docs 200; swagger.oneautoapi.com 200 (spec file not located); llms.txt 404;
-  404 probe 404
+
+x-submission-probe: root 200; docs 200; swagger.oneautoapi.com 200 (spec file not located); llms.txt 404; 404 probe 404
+
 x-submitted-by: sean@oneautoapi.com (apis.io/add, 2026-10-01)
+x-enrichment:
+  date: '2026-10-02'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
