@@ -1,0 +1,29 @@
+aid: oneautoapi
+name: One Auto API
+description: 'One Auto API is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://raw.githubusercontent.com/api-evangelist/oneautoapi/refs/heads/main/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-10-02'
+modified: '2026-10-02'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.oneautoapi.com/
+- type: Documentation
+  url: https://docs.oneautoapi.com/
+x-submission-notes: UK automotive data APIs (vehicle lookup, valuations, retail pricing).
+x-submission-probe: root 200; docs 200; swagger.oneautoapi.com 200 (spec file not located); llms.txt 404;
+  404 probe 404
+x-submitted-by: sean@oneautoapi.com (apis.io/add, 2026-10-01)
