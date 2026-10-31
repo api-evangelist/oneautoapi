@@ -64,5 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-One Auto API is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.oneautoapi.com/
+One Auto API provides comprehensive automotive data APIs for vehicle lookup, valuations, retail pricing, and more across the US, UK, and Europe. Their platform offers over 100 API methods covering car images, mileage checks, specifications, electric vehicle data, registration lookup, service history, and valuation, all accessible via a single subscription and monthly invoice. Designed for developers, product managers, and dealers, the service includes bulk report building, VRM360 insights, and consultancy services, backed by multiple data providers.
+
+**Areas:** Automotive · Data · Vehicles · United Kingdom
+
+## One Auto API on APIs.io
+
+Everything profiled for One Auto API is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oneautoapi/](https://apis.io/providers/oneautoapi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [One Auto API](https://apis.io/apis/oneautoapi/one-auto-api/) — Automotive data APIs providing vehicle identity, history, valuations, specs and images.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Oneautoapi Domain Security](https://apis.io/security/oneautoapi/oneautoapi-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.oneautoapi.com/)
+- [Documentation](https://docs.oneautoapi.com/)
+- [Getting started](https://www.oneautoapi.com/signup/)
+- [API reference](https://swagger.oneautoapi.com/)
+- [Pricing](https://www.oneautoapi.com/pricing/)
+- [Support](https://www.oneautoapi.com/contact/)
+- [Changelog](https://docs.oneautoapi.com/changelog/)
+- [Blog](https://go.oneautoapi.com/blog/)
+- [Terms of service](https://www.oneautoapi.com/terms/)
+- [Privacy policy](https://www.oneautoapi.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 22.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/oneautoapi/](https://apis.io/providers/oneautoapi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for One Auto API: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/oneautoapi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
